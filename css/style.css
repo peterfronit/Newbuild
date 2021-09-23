@@ -1,0 +1,458 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+h2{
+	font-family: georgia;
+}
+a {
+	
+	color: #000;
+}
+.mobile-view{
+	display: none;
+}
+#home{
+	
+	height: 100vh;
+	position: relative;
+	display: inline-flex;
+	
+	
+}
+#home .content{
+	height: 100vh;
+
+	
+	
+}
+#home .banner img{
+	width: 100%;
+	float: right;
+	height: auto;
+	z-index: -1000;
+}
+#home .content nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+#home .content nav ul{
+	display: flex;
+	padding-top: 13px;
+}
+#home .content nav ul li{
+	list-style: none;
+}
+#home .content nav ul li a{
+    text-decoration: none;
+    height: 26px;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+
+}
+
+#home .content .main{
+	
+	margin-top: 10px;
+	
+	
+}
+#home .content .main img{
+	padding-left: 60px;
+}
+#home .content .main div h2{
+	
+    width: 399px;
+    height: 44px;
+    margin-left: 65px;
+    top: 374px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+
+
+}
+#home .content .main div .para p{
+	
+    width: 400px;
+    height: 56px;
+    margin-left: 65px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+
+	
+}
+#home .content .mail{
+	display: flex;
+	width: 110%;
+	padding-left: 50px;
+	margin-bottom: 20px;
+	z-index: 1000;
+
+}
+#home .content .main .vl{
+	
+
+}
+#home .content .main input{
+	font-size: 16px;
+	padding: 10px;
+	width: 90%;
+	height: 70px;
+	border: 1px solid #E3E3E4;
+	border-left: 4px solid #4066A5;
+}
+#home .content .main input:hover{
+	font-size: 16px;
+	padding: 10px;
+	width: 90%;
+	height: 70px;
+	border-left: 4px solid #4066A5;
+	border-right: 1px solid #4066A5;
+	border-top: 1px solid #4066A5;
+	border-bottom: 1px solid #4066A5;
+	
+}
+#home .content .mail a img{
+	position: absolute;
+	z-index: 1000;
+	border:1px solid #767676;
+	width: 60px;
+	padding: 10px;
+	border: 1px solid #E3E3E4;
+	height: 70px;
+	background-color: #fff;
+
+}
+#home .content .mail  a img:hover{
+	z-index: 1000;
+	border:1px solid #767676;
+	width: 60px;
+	padding: 10px;
+	height: 70px;
+	border: 1px solid #4066A5;
+	color: #4066A5;
+}
+#home .content .checkbox{
+	padding-left: 50px;
+	margin-bottom: 100px;
+}
+#home .content .checkbox input{
+    width: 16px;
+    height: 16px;
+    left: 140px;
+    top: 663px;
+    background: #4066A5;
+    border-radius: 3px;
+
+}
+#home .content .checkbox label{
+
+    width: 359px;
+    height: 28px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+
+}
+hr{
+	background-color: #E3E3E4;
+	width: 50%;
+	margin-left: 25%;
+}
+#home .content .icon{
+	font-size:20px;
+	padding-top: 30px;
+	text-align: center;
+}
+#home .content .icon a i{
+	background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+#home .content .icon .fb i:hover{
+	
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #4267b2;
+    transition: 1s;
+    color: #fff;
+    text-shadow: 2;
+}
+#home .content .icon .insta i:hover{
+	
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #c13584;
+    transition: 1s;
+    color: #fff;
+}
+#home .content .icon .tw i:hover{
+	
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #1da1f2;
+    transition: 1s;
+    color: #fff;
+}
+#home .content .icon .yu i:hover{
+	
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #ff0000;
+    transition: 1s;
+    color: #fff;
+}
+
+            /*Media query*/
+
+@media (max-width: 1000px){
+	.mobile-view{
+		display: block;
+	}
+	a {
+	
+	color: #000;
+}
+#home{
+	position: absolute;
+	height: 100vh;
+	position: relative;
+	display: inline-flex;
+	background-image: url(image_summer.png);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	display: none;
+	
+}
+.mobile-view nav{
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+}
+.mobile-view nav div img{
+	width: 200px;
+	margin-left: 10px;
+}
+.mobile-view nav ul{
+	display: flex;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+}
+.mobile-view nav ul li{
+	list-style: none;
+	padding: 20px;
+}
+.mobile-view nav ul li a{
+	text-decoration: none;
+	font-size: 27px;
+}
+.mobile-view .content1 img{
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+	position: fixed;
+}
+.mobile-view .content1 .main img{
+	width: 100%
+}
+.mobile-view .content1 .box{
+	align-items: center;
+	margin: 100px;
+	height: auto;
+	width: 800px;
+	background-color: #fff;
+	float: right;
+	border-radius: 10px;
+}
+.mobile-view .content1 .box img{
+	z-index: 1000;
+	width: 100%;
+	height: 20vh;
+	position: relative;
+	margin-top: 30px;
+	padding-right: 700px;
+	margin-bottom: 20px;
+
+}
+
+.mobile-view .content1 .box{
+	padding-left: 30px;
+
+}
+.mobile-view .content1 .box h2{
+	
+	font-size: 70px;
+	line-height: 34px;
+    width: 295px;
+    height: 34px;  
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 34px;
+    padding: 20px;
+    color: #131821;
+    margin-bottom: 50px;
+
+}
+.mobile-view .content1 .box p{
+    margin-top: 30px;
+    
+    height: 52px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 22px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    color: #6A707B;
+	padding-bottom: 50px;
+}
+.mobile-view .content1 .box .mail{
+	display: flex;
+}
+.mobile-view .content1 .box .mail input{
+	font-size: 20px;
+	padding: 10px;
+	width: 80%;
+	height: 60px;
+	margin-bottom: 50px;
+	border-left: 4px solid #4066A5;
+	border-top: 1px solid #E3E3E4;
+	border-right: 1px solid #E3E3E4;
+	border-bottom: 1px solid #E3E3E4;
+}
+.mobile-view .content1 .box .mail input:hover{
+	font-size: 20px;
+	padding: 10px;
+	width: 80%;
+	height: 60px;
+	margin-bottom: 50px;
+	border-left: 4px solid #4066A5;
+	border-right: 1px solid #4066A5;
+	border-top: 1px solid #4066A5;
+	border-bottom: 1px solid #4066A5;
+}
+.mobile-view .content1 .box .mail a img{
+	border:1px solid #E3E3E4;
+	z-index: 1000;
+	padding: 5px;
+	width: 60px;
+	height: 60px;
+	margin-top: 0px;
+	background-color: #fff;
+	
+}
+.mobile-view .content1 .box .mail a img:hover{
+	border:1px solid #4066A5;
+	z-index: 1000;
+	padding: 5px;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+}
+.mobile-view .content1 .box .checkbox{
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.mobile-view .content1 .box .checkbox form input{
+	width: 20px;
+    height: 20px;
+    left: 140px;
+    top: 663px;
+    background: #4066A5;
+    border-radius: 3px;
+}
+.mobile-view .content1 .box .checkbox form label{
+
+    width: 254px;
+    height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6A707B;
+
+}
+.mobile-view .content1 .box hr{
+	margin-bottom: 50px;
+}
+.mobile-view .content1 .box .icon{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.mobile-view .content1 .box .icon i{
+	background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.mobile-view .content1 .box .icon .fb i:hover{
+	font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: #4267b2;
+    transition: 1s;
+    color: #fff;
+}
+.mobile-view .content1 .box .icon .insta i:hover{
+	font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: #c13584;
+    transition: 1s;
+    color: #fff;
+}
+.mobile-view .content1 .box .icon .tw i:hover{
+	font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: #1da1f2;
+    transition: 1s;
+    color: #fff;
+}
+.mobile-view .content1 .box .icon .yu i:hover{
+	font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: #ff0000;
+    transition: 1s;
+    color: #fff;
+}
+
+}
